@@ -1,0 +1,145 @@
+CRITICAL - 2023-02-20 12:48:19 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-20 05:48:44 --> syntax error, unexpected token "===", expecting end of file
+in APPPATH\Config\Routes.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+ 4 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-02-20 05:48:45 --> syntax error, unexpected token "===", expecting end of file
+in APPPATH\Config\Routes.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+ 4 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-02-20 05:48:59 --> syntax error, unexpected token "===", expecting end of file
+in APPPATH\Config\Routes.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+ 4 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-02-20 05:56:15 --> syntax error, unexpected token "===", expecting end of file
+in APPPATH\Config\Routes.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+ 4 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-02-20 05:56:34 --> syntax error, unexpected token "===", expecting end of file
+in APPPATH\Config\Feature.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Config\\Feature.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Feature')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Feature')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Feature')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Feature')
+ 6 SYSTEMPATH\Common.php(203): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\CodeIgniter.php(814): config('Feature')
+ 8 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 9 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+11 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-02-20 05:56:48 --> syntax error, unexpected token "===", expecting end of file
+in APPPATH\Config\Filters.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(203): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(283): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(280): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(435): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+15 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-02-20 05:57:32 --> syntax error, unexpected token "===", expecting end of file
+in APPPATH\Filters\LoginFilter.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Filters\\LoginFilter.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\LoginFilter')
+ 3 SYSTEMPATH\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\LoginFilter')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('D:\\', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 05:58:11 --> syntax error, unexpected token "===", expecting "function" or "const"
+in APPPATH\Models\UserModel.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\Auth.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Auth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 05:58:12 --> syntax error, unexpected token "===", expecting "function" or "const"
+in APPPATH\Models\UserModel.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\Auth.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Auth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-20 05:58:13 --> syntax error, unexpected token "===", expecting "function" or "const"
+in APPPATH\Models\UserModel.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\Auth.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Auth->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-02-20 05:59:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\MySQLi\Connection.php:170
+Stack trace:
+#0 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\MySQLi\Connection.php(170): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dashboard', 3306, '', 0)
+#1 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\app\Controllers\Auth.php(24): CodeIgniter\BaseModel->first()
+#7 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#8 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Commands\Server\rewrite.php(46): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\app\Controllers\Auth.php(24): CodeIgniter\BaseModel->first()
+#6 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#7 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\XAMPP\htdocs\aplic-dashboard\aplic-dashboard-ci4\system\Commands\Server\rewrite.php(46): require_once('D:\\XAMPP\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-20 05:59:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user_name` = :user_name:
+AND `user_password` = :user_password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

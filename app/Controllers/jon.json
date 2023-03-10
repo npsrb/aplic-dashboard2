@@ -1,0 +1,136 @@
+{
+    "GLOBAL": {
+        "PathApps": "Y:/Auto/_DEVELOPMENT/New Treasury Core System/NTCS FILES/PRIME.bat",
+        "Username": "AUTO_RTS",
+        "Password": "intas",
+        "ADS Server": "10.243.244.58:9000",
+        "ExcelTestData": "C:/Users/RPAStudio5/Documents/Uipath/NTCS/DataFiles/TestData/Process.xlsx"
+    },
+    "Transaction": {
+        "FX Cash": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "FX Non-Deliverable Forward": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "FX Option": {
+            "FO Maker": "TQA.IRT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Discounted Term Deposit": {
+            "FO Maker": "TQA.IRT.DEPT.ROLE",
+            "FO Checker": "TQA.IRT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Commodity": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Deposit / Loan": {
+            "FO Maker": "TQA.IRT.DEPT.ROLE",
+            "FO Checker": "TQA.IRT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Bill": {
+            "FO Maker": "TQA.BBM.DEPT.ROLE",
+            "FO Checker": "TQA.BBM.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Swap": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Option": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Future / Forward": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Fund": {
+            "FO Maker": "TQA.BBM.DEPT.ROLE",
+            "FO Checker": "TQA.BBM.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Account Transfer": {
+            "FO Maker": "TQA.LAL.DEPT.ROLE",
+            "FO Checker": "TQA.LAL.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "BOnd": {
+            "FO Maker": "TQA.BBM.DEPT.ROLE",
+            "FO Checker": "TQA.BBM.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "FRN": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "FRA": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "CurrSwap": {
+            "FO Maker": "TQA.FXT.DEPT.ROLE",
+            "FO Checker": "TQA.FXT.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        },
+        "Basket Repo / Reverse": {
+            "FO Maker": "TQA.LAL.DEPT.ROLE",
+            "FO Checker": "TQA.LAL.SUP.ROLE",
+            "BO Maker": "TQA.TRADE.MAKER.ROLE",
+            "BO Checker": "TQA.TRADE.CHECKER.ROLE"
+        }
+    },
+    "Query": {
+        "Vollatility": "C:/Users/RPAStudio5/Documents/Uipath/NTCS/DataFiles/TestData/Query/Vollatility.txt"
+    },
+    "Dir": {
+        "=====================================================Template Keperluan Test Data": "====================================",
+        "TemplateTestData": "C:/Users/RPAStudio5/Documents/Uipath/NTCS/DataFiles/Resource/TemplateTestData.xlsx",
+        "TargetTemplateTestData": "C:/Users/RPAStudio5/Documents/Uipath/NTCS/DataFiles/TestData/Generate Test Data/TemplateTestData.xlsx",
+        "SourceCSV": "C:/Users/RPAStudio5/Documents/Uipath/NTCS/DataFiles/TestData/CSV",
+        "=====================================================Template Keperluan Process Upload Test data": "====================================",
+        "Input": "Y:/New Treasury Core System/ManageFiles/Input",
+        "Output": "Y:/New Treasury Core System/ManageFiles/Output",
+        "Error": "Y:/New Treasury Core System/ManageFiles/Error",
+        "Archive": "Y:/New Treasury Core System/ManageFiles/Archive",
+        "=====================================================Template Keperluan Process Download Report From Front Arena": "Automation_WEBEAI_Receiver_Task====================================",
+        "DownloadReport": "C:/GenerateReport/",
+        "Evidance": "Y:/Evidance NTCS/"
+    },
+    "Packages": {
+        "UploadCSV": "WEBEAI_Receiver_Task"
+    },
+    "Noted": {
+        "Query": "Query masing2 menggunakan inputan vInsid "
+    }
+}
